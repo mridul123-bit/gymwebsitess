@@ -1,0 +1,119 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-image: url('../images/download.jpeg');
+    height: 4800px;
+    background-repeat: no-repeat;
+    color:white;
+}
+.left
+{
+
+  display: inline-block;
+  position: absolute;
+  left: 10px;
+   top:25px;
+ 
+}
+.right
+{
+    
+    display: inline-block;
+    position: absolute;
+   right: 10px;
+    top:20px;
+    
+}
+.mid
+{
+    
+    display: block;
+    width:50%;
+    margin:12px auto;
+}
+.navbar{
+    display: inline-block;
+    
+}
+.navbar li{
+    display: inline-block;
+    box-sizing: border-box;
+    font-size: 15px;
+    
+}
+.navbar li a{
+    
+    text-decoration: none;
+    padding: 24px 24px;
+    color: white;
+     font-size: 25px;
+     text-align: center;
+     margin: 2px auto;
+
+}
+.navbar li a:hover{
+    text-decoration: underline;
+    color: teal;
+    
+}
+.navbar li a.active
+{
+    text-decoration: underline;
+    color: rgb(238, 234, 20);
+  
+}
+.left img{
+    width:83px;
+    height: 40px;
+}
+.right button{
+   margin:3px; 
+   font-size: 20px;
+   background-color: teal;
+   
+   border-radius: 7px;
+   cursor: pointer;
+   padding:3px;
+}
+.right button:hover
+{
+    text-decoration: underline;
+}
+.container{
+   
+    margin: 76px 51px;
+    padding: 100px 100px;
+    
+    border-radius: 39px;
+}
+.form-group
+{
+   margin:10px 10px;
+   padding:10px 10px;
+   border-radius: 10px;
+  
+}
+.btn
+{
+   font-size: 20px;
+    text-align: center;
+    
+    margin: 10px auto;
+    display: block;
+}
+.form-group input{
+    text-align: center;
+    /* width:30%; */
+    margin: 10px auto;
+    display: block;
+    font-size: 25px;
+    border-radius: 25px;
+    
+}
+.container h1{
+    text-align: center;
+    /* width:30%; */
+    margin: 10px auto;
+    display: block;
+    
+}
